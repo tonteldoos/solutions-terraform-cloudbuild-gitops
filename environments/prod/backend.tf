@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "vpc-host-prod-316121-tfstate"
+    bucket = "cloudbuild01"
     prefix = "env/prod"
   }
 }
